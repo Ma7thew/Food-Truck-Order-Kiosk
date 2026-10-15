@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Food Truck Order Kiosk</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+
+  <header class="hero">
+    <div class="hero-badge">🚚 Now serving</div>
+    <!-- Rename the truck! Make it yours. -->
+    <h1 id="truck-name">Yobro's</h1>
+    <p class="tagline" id="tagline">Instantaneous Food Orders - - - Cheap Prices - - - Gourmet Food</p>
+  </header>
+
+  <main class="layout">
+
+    <section>
+      <h2 class="section-title">Menu</h2>
+
+      <!-- Your JavaScript fills this bo menu cards.
+           The two cards below are EXAMPLES so you can see the design.
+           Delete them once your own code is rendering the menu. -->
+
+      <div class="menu-grid" id="menu">
+
+      </div>
+    </section>
+
+    <aside class="receipt">
+      <h2>Order Receipt</h2>
+      <p class="receipt-customer">Customer: <span id="customer-name">- - -</span></p>
+
+      <!-- Your JavaScript fills this list with one line per item ordered.
+           The line below is an EXAMPLE. Delete it once your code works. -->
+      <ul class="receipt-lines" id="receipt-lines">
+        <li><span id="shopping-cart">- - -</span><span>$____</span></li>
+      </ul>
+
+      <p class="receipt-total">Total <span id="order-total">$0.00</span></p>
+      <p class="receipt-footer">Thanks for eating local!</p>
+    </aside>
+
+  </main>
+
+  <footer class="site-footer">Built by <span id="student-name">student</span></footer>
+</body>
+</html>
